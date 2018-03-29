@@ -8,7 +8,7 @@
     android:fitsSystemWindows="true"
     tools:context="com.github.sjnyag.forceanimateappbarlayout.ScrollingActivity">
 
-    <android.support.design.widget.AppBarLayout
+    <com.github.sjnyag.ForceAnimateAppBarLayout
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/app_bar_height"
@@ -32,7 +32,7 @@
                 app:popupTheme="@style/AppTheme.PopupOverlay"/>
 
         </android.support.design.widget.CollapsingToolbarLayout>
-    </android.support.design.widget.AppBarLayout>
+    </com.github.sjnyag.ForceAnimateAppBarLayout>
 
     <include layout="@layout/content_scrolling"/>
 

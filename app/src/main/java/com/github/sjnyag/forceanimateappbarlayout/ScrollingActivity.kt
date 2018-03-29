@@ -1,11 +1,10 @@
 package com.github.sjnyag.forceanimateappbarlayout
 
 import android.os.Bundle
-import android.support.design.widget.AppBarLayout
-import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import com.github.sjnyag.ForceAnimateAppBarLayout
 import kotlinx.android.synthetic.main.activity_scrolling.*
 
 class ScrollingActivity : AppCompatActivity() {
@@ -15,8 +14,8 @@ class ScrollingActivity : AppCompatActivity() {
         setContentView(R.layout.activity_scrolling)
         setSupportActionBar(toolbar)
         fab.setOnClickListener { _ ->
-            findViewById<AppBarLayout>(R.id.app_bar).run {
-                setExpanded(true, true)
+            findViewById<ForceAnimateAppBarLayout>(R.id.app_bar).run {
+                animatedExpand()
             }
         }
     }
