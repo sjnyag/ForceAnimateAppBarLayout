@@ -1,4 +1,4 @@
-package com.github.sjnyag;
+package com.github.sjnyag.forceanimateappbarlayout;
 
 import org.junit.Test;
 

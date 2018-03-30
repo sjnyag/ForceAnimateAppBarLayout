@@ -1,4 +1,4 @@
-package com.github.sjnyag
+package com.github.sjnyag.forceanimateappbarlayout
 
 import android.content.Context
 import android.support.design.widget.AppBarLayout

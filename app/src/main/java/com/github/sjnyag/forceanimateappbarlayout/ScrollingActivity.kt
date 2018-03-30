@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
-import com.github.sjnyag.ForceAnimateAppBarLayout
+import com.github.sjnyag.forceanimateappbarlayout.ForceAnimateAppBarLayout
 import kotlinx.android.synthetic.main.activity_scrolling.*
 
 class ScrollingActivity : AppCompatActivity() {
