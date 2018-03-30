@@ -22,7 +22,7 @@ Usage
     android:fitsSystemWindows="true"
     tools:context="com.github.sjnyag.forceanimateappbarlayout.ScrollingActivity">
 
-    <com.github.sjnyag.ForceAnimateAppBarLayout
+    <com.github.sjnyag.forceanimateappbarlayout.ForceAnimateAppBarLayout
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/app_bar_height"
@@ -46,7 +46,7 @@ Usage
                 app:popupTheme="@style/AppTheme.PopupOverlay"/>
 
         </android.support.design.widget.CollapsingToolbarLayout>
-    </com.github.sjnyag.ForceAnimateAppBarLayout>
+    </com.github.sjnyag.forceanimateappbarlayout.ForceAnimateAppBarLayout>
 
     <include layout="@layout/content_scrolling"/>
 
@@ -86,14 +86,14 @@ allprojects {
 
 ```groovy
 dependencies {
-    implementation 'com.github.sjnyag:ForceAnimateAppBarLayout:0.3.0'
+    implementation 'com.github.sjnyag:ForceAnimateAppBarLayout:0.4.0'
 }
 ```
 
 License
 -------
 ```
-   Copyright 2017 sjnyag
+   Copyright 2018 sjnyag
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
